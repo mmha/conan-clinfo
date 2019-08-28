@@ -15,7 +15,7 @@ class ClinfoConan(ConanFile):
     exports = ["LICENSE.md", "CMakeLists.txt"]
     generators = "cmake"
 
-    settings = "arch", "os", "os_build", "arch_build", "compiler"
+    settings = "arch", "os", "compiler"
 
     requires = "khronos-opencl-icd-loader/[>=20190507]@bincrafters/stable"
 
@@ -49,8 +49,6 @@ class ClinfoConan(ConanFile):
         cmake.install()
 
     def package_id(self):
-        del self.info.settings.arch
-        del self.info.settings.os
         del self.info.settings.compiler
 
     def package_info(self):

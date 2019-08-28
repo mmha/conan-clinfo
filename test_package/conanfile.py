@@ -3,7 +3,7 @@ import os
 
 
 class TestPackageConan(ConanFile):
-    settings = "os", "arch", "os_build", "arch_build", "compiler"
+    settings = "os", "arch", "compiler"
 
     def test(self):
         return # FIXME: Disabled for now due to ARM not being detected as a cross-build
