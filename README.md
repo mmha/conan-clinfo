@@ -2,7 +2,7 @@
 
 | Bintray | Windows | Linux & macOS |
 |:--------:|:---------:|:-----------------:|
-|[![Download](https://api.bintray.com/packages/mmha/public-conan/package_name%3Ammha/images/download.svg) ](https://bintray.com/mmha/public-conan/package_name%3Ammha/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/mmha/conan-package_name?svg=true)](https://ci.appveyor.com/project/mmha/conan-package_name)|[![Build Status](https://travis-ci.com/mmha/conan-package_name.svg)](https://travis-ci.com/mmha/conan-package_name)|
+|[![Download](https://api.bintray.com/packages/mmha/public-conan/clinfo%3Ammha/images/download.svg) ](https://bintray.com/mmha/public-conan/clinfo%3Ammha/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/mmha/conan-clinfo?svg=true)](https://ci.appveyor.com/project/mmha/conan-clinfo)|[![Build Status](https://travis-ci.com/mmha/conan-clinfo.svg)](https://travis-ci.com/mmha/conan-clinfo)|
 
 ## Conan Information
 
